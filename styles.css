@@ -1,0 +1,129 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #66bb6a;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Section Styling */
+section {
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #66bb6a;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Product Section */
+#products .product {
+    display: inline-block;
+    width: 30%;
+    margin: 20px 1%;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+#products .product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#products .product h3 {
+    font-size: 22px;
+    color: #66bb6a;
+    margin: 15px 0;
+}
+
+#products .product p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Contact Section Styling */
+#contact {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact h3 {
+    font-size: 22px;
+    color: #66bb6a;
+    margin-top: 20px;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#contact ul li {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#contact ul li a {
+    color: #66bb6a;
+    text-decoration: none;
+}
+
+#contact ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #66bb6a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 16px;
+}
